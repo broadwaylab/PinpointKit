@@ -62,6 +62,7 @@
 		4C4038261D9EB1B700305A6E /* PinpointKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4038251D9EB1B700305A6E /* PinpointKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C4038281D9EB27A00305A6E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4038271D9EB27A00305A6E /* NavigationController.swift */; };
 		4C40382C1D9EB7A800305A6E /* ScreenshotDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C40382B1D9EB7A800305A6E /* ScreenshotDetector.swift */; };
+		9D31A0D31DDCFD450092EDE1 /* TrelloSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31A0D21DDCFD450092EDE1 /* TrelloSender.swift */; };
 		DA0DA60D1C53049B0012ADBE /* PinpointKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0DA6021C53049B0012ADBE /* PinpointKit.framework */; };
 		F24381121D54CBAB004CC87F /* SystemLogCollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24381111D54CBAB004CC87F /* SystemLogCollectorTests.swift */; };
 		F24381151D54ECD2004CC87F /* XCTestCaseExpectationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24381141D54ECD2004CC87F /* XCTestCaseExpectationExtensions.swift */; };
@@ -134,6 +135,7 @@
 		4C4038251D9EB1B700305A6E /* PinpointKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinpointKit.h; path = PinpointKit/Sources/Core/PinpointKit.h; sourceTree = "<group>"; };
 		4C4038271D9EB27A00305A6E /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Core/NavigationController.swift; sourceTree = "<group>"; };
 		4C40382B1D9EB7A800305A6E /* ScreenshotDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenshotDetector.swift; path = ScreenshotDetector/ScreenshotDetector.swift; sourceTree = "<group>"; };
+		9D31A0D21DDCFD450092EDE1 /* TrelloSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrelloSender.swift; path = Core/TrelloSender.swift; sourceTree = "<group>"; };
 		DA0DA6021C53049B0012ADBE /* PinpointKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinpointKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0DA6071C53049B0012ADBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PinpointKit/Info.plist; sourceTree = "<group>"; };
 		DA0DA60C1C53049B0012ADBE /* PinpointKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinpointKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +178,7 @@
 			children = (
 				4C4037CF1D9EAECF00305A6E /* Sender.swift */,
 				4C4037CE1D9EAECF00305A6E /* MailSender.swift */,
+				9D31A0D21DDCFD450092EDE1 /* TrelloSender.swift */,
 			);
 			name = Sending;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				4C40380D1D9EB0DD00305A6E /* MIMEType.swift in Sources */,
 				4C4037D11D9EAECF00305A6E /* Sender.swift in Sources */,
 				4C4038071D9EB08E00305A6E /* ShakeDetectingWindowDelegate.swift in Sources */,
+				9D31A0D31DDCFD450092EDE1 /* TrelloSender.swift in Sources */,
 				4C40381D1D9EB12900305A6E /* UIColor+Palette.swift in Sources */,
 				4C4038281D9EB27A00305A6E /* NavigationController.swift in Sources */,
 				4C4037E61D9EAFA000305A6E /* ArrowAnnotationView.swift in Sources */,
